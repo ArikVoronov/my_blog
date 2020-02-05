@@ -8,7 +8,7 @@
 
 {% for file in site.static_files %}
 	{% if file.image %}
-	<img src= "/assets/" alt="{{file.name}}">
+	<img src= "{{file.path}}" alt="{{file.name}}">
 	{% endif %}
 
 {% endfor %}
