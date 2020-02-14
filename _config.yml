@@ -30,11 +30,12 @@ twitter_username:
 github_username:  
 
 # Build settings
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.18.1"
 minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 defaults:
   -
