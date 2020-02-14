@@ -93,7 +93,7 @@ We organize the tree by pairing the nodes with the lowest frequency (n1, n2) and
 For the sake of consistency, we keep the node with the larger frequency as the right child (could also be the other way, the important thing is to keep a consistent rule).
 Here is the Huffman tree for the "freeze geezer" example:
 
-![an image alt text]({{site.baseurl}}/assets/huffman_coding/tree_example.jpg "Tree Example")
+![an image alt text]({{site.baseurl}}/assets/huffman_coding/tree_example.JPG "Tree Example")
 
 Note: 
 1. Immediately  on the right of the root node is a bottom leaf with the 'e' char - which is the most frequent character.
