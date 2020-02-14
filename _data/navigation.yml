@@ -1,0 +1,11 @@
+main:
+  - title: "About"
+    url: /about/
+  - title: "CV"
+    url: /CV/
+docs:
+  - title: Misc Coding
+    children:
+      - title: "Huffman Coding"
+        url: /2020/02/12/HuffmanCoding.html
+
