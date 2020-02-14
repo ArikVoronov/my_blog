@@ -30,7 +30,7 @@ twitter_username:
 github_username:  
 
 # Build settings
-theme: minimal-mistakes-jekyll
+theme: jekyll-theme-cayman
 minimal_mistakes_skin: "contrast"
 plugins:
   - jekyll-feed
