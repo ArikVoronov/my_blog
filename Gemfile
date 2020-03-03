@@ -13,7 +13,7 @@ gem "jekyll-include-cache"
 
 
 
-#gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
+gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes"
 #gem "minimal-mistakes-jekyll", :github => "mmistakes/minimal-mistakes", :branch => 'color-skins'
 #gem "minima"
 #gem "github-pages", group: :jekyll_plugins

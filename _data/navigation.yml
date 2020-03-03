@@ -8,4 +8,10 @@ docs:
     children:
       - title: "Huffman Coding"
         url: /2020/02/12/HuffmanCoding.html
+      - title: "Klotski Puzzle Solver"
+        url: /2020/03/02/KlotskiSolver.html
+  - title: Environments
+    children:
+      - title: "Gridworld"
+        url: env/2020/02/15/Gridworld.html
 
