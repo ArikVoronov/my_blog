@@ -6,6 +6,11 @@ classes: wide
 ---
 
 All code for this project is stored in this [repository][github]
+it contains:
+- Klotski puzzle class definition
+- A backtracking recursion solver
+- Breadth first search solver
+
 ## Background and Motivation
 Klotski puzzle is a well known logic puzzle, here's what's called a default starting layout:
 ![starting layout]({{site.baseurl}}/assets/klotski_solver/starting_layout.png "starting layout"){: .small .align-center}
@@ -62,7 +67,7 @@ Breadth first search (BFS) is a common technique for finding the shortes path in
 
 In short, the BFS algorithm:
 1. Create a queue, put the intial node (state) as a node in the queue
-2. Create a **SET** of visited states (hashed grids, see appendix)
+2. Create a **set** of visited states (hashed grids, see appendix)
 3. while the queue is not empty:
 - Pop the first member in the queue
 - Find all neighboring nodes to the state

@@ -4,14 +4,20 @@ main:
   - title: "CV"
     url: /CV/
 docs:
+  - title: Machine Learning General
+    children:
+    - title: "SVM"
+      url: ml/2020/03/04/SVM.html
+  - title: Environments
+    children:
+      - title: "Gridworld"
+        url: env/2020/02/15/Gridworld.html
   - title: Misc Coding
     children:
       - title: "Huffman Coding"
         url: /2020/02/12/HuffmanCoding.html
       - title: "Klotski Puzzle Solver"
         url: /2020/03/02/KlotskiSolver.html
-  - title: Environments
-    children:
-      - title: "Gridworld"
-        url: env/2020/02/15/Gridworld.html
+      - title: "Boggle Solver"
+        url: /2020/03/04/Boggle.html
 
